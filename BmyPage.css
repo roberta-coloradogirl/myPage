@@ -1,0 +1,158 @@
+body {
+   width: 100%;
+   height: 100%;
+   padding: 0;
+   font-family:Georgia, Verdana, "Courier New";
+   overflow: hidden;
+}
+
+.header {
+   width: 100%;
+   height: 30%;
+   position: relative;
+   top: 0;
+   left: 0;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+.banner {
+   width: 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+.homeAnchor {
+   position: relative;
+   float: left;
+   display:block;
+   top: 5;
+   left: 5;
+   height: 125px;
+   width: 125px;
+   padding-top: 1%;
+   text-decoration: none;
+}
+
+#logoIcon {
+   border: none;
+   width: 100%;
+}
+
+.tagLine {
+   position: relative;
+   float: right;
+   right: 0;
+   display: inline-block;
+   width: 80%;
+   height: 3.2em;
+   top-margin: -1.6em;
+   font-weight:bold;
+   font-style:oblique;
+   padding-right: 2%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+.pageTitle {
+   display: inline-block;
+   float: right;
+   right: 5%;
+}
+
+.clearFloats {
+   clear:both;
+}
+#nav {
+   height: 20%;
+   width: 80%;
+   display: block;
+   position: relative;
+}
+
+.headerNavigation {
+   list-style: none;
+   display: inline;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+.firstNavButton {
+   float: left;   
+   width: 15%;
+   border-right: 5px groove #4b4b4b;
+   padding: 5px;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+   color: inherit;
+   background-color: #FFCCFF;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.mainNavButton hover{
+   background-color: #FFE6E6;
+}
+.mainNavButton a {
+   text-decoration: none;
+   background-color: #FFCCFF;
+}
+
+.navButton {
+   float: left;   
+   width: 15%;
+   border-right: 5px groove #4b4b4b;
+   padding: 5px;
+   text-align: center;
+   color: white;
+   background-color: #FFCCFF;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.navButton hover {
+   background-color: #FFE6E6;
+}
+
+
+.subMenu {
+   display: none;
+   padding: 8px 0px 0px 0px;
+}
+
+.subMenuItem {
+}
+
+.boldTxt {
+   font-weight:bold;
+}
+
+.buttonLbl {
+   background-color: #FFCCFF;
+}
+
+.mainContent {
+   width: 100%;
+   position: relative;
+   top: 5;
+   left: 5;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+.footer {
+   margin-left: auto;
+   margin-right: auto;
+   position: fixed;
+   bottom: 0;
+   text-align: center;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}

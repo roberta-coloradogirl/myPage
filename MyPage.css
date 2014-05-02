@@ -1,0 +1,128 @@
+/* Created on Apr 29, 2014 6:20:19 PM */
+html, body { 
+   background-color: #99B2FF;
+   width: 100%;
+   height: 100%;
+   }
+a {
+   text-decoration: none;
+}
+#header {
+   position:relative;
+   width: 100%;
+   top:0;
+   left:0;
+   background-color: #2E5CE6;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+#headerIcon {
+   margin: 3px;
+   padding: 3px;
+   width:15%;
+   background-color: #2E5CE6;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+#pageIcon {
+   width: 125px;
+   height: 125px;
+}
+
+#headerTagLine {
+   position: absolute;
+   right: 5%;
+   width:85%;
+   background-color: #2E5CE6;
+   line-height:1.8em;
+   margin-top: -0.9em;
+   margin: 3px;
+   padding: 3px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.pageTitle {
+   display:inline-block;
+   margin: 3px;
+   padding: 3px;
+   width: 75%;
+   font-size: 1.2em;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+#headerNav {
+   margin: 3px;
+   padding: 3px;
+   list-style: none;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.navLi {
+   list-style: none;
+   display:inline;
+   width:56px;
+   margin: 6px;
+   padding: 6px;
+   font-size: 1.125em;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.navLi hover a {
+   background-color: #9EA3B3;
+}
+.subNav {
+   display: none;
+
+   list-style: none;
+   z-index: 45;
+}
+.navBar {
+   margin: 3px;
+   padding: 3px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+#sidebar {
+   margin: 3px;
+   padding: 3px;
+   width:10%;
+   float: left;
+   height: 850px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+.sideLi {
+   list-style: none;
+}
+#main {
+   margin-left: auto;
+   margin-right: auto;
+   padding: 3px;
+   width: 70%;
+   height: 350px;
+   display: inline;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
+
+#footer {
+   margin-left: auto;
+   margin-right: auto;
+   position: relative;
+   bottom: 0;
+   padding: 3px;
+   width: 95%;
+   border-style: solid;
+   border-width: 1px;
+   border-color: red;
+}
