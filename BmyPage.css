@@ -2,8 +2,10 @@ body {
    width: 100%;
    height: 100%;
    padding: 0;
-   font-family:Georgia, Verdana, "Courier New";
+   font-family: Georgia, Verdana, "Courier New";
    overflow: hidden;
+   background-color: #C3B447;
+   color: black;
 }
 
 .header {
@@ -12,24 +14,23 @@ body {
    position: relative;
    top: 0;
    left: 0;
-   border-style: solid;
+   background-color: #AA9E46;
+/*   border-style: solid;
    border-width: 1px;
-   border-color: red;
+   border-color: red;   */
 }
 
 .banner {
    width: 100%;
-   border-style: solid;
+/*   border-style: solid;
    border-width: 1px;
-   border-color: red;
+   border-color: red;  */
 }
 
 .homeAnchor {
    position: relative;
    float: left;
-   display:block;
-   top: 5;
-   left: 5;
+   display: block;
    height: 125px;
    width: 125px;
    padding-top: 1%;
@@ -39,93 +40,121 @@ body {
 #logoIcon {
    border: none;
    width: 100%;
+   back
 }
 
 .tagLine {
-   position: relative;
    float: right;
    right: 0;
    display: inline-block;
-   width: 80%;
-   height: 3.2em;
-   top-margin: -1.6em;
-   font-weight:bold;
-   font-style:oblique;
-   padding-right: 2%;
-   border-style: solid;
+   width: 50%;
+   line-height: 4em;
+   top-margin: -2em;
+   font-weight: bold;
+   font-style: oblique;
+   padding-right: 10%;
+/*   border-style: solid;
    border-width: 1px;
-   border-color: red;
+   border-color: red;    */
 }
 
 .pageTitle {
    display: inline-block;
    float: right;
-   right: 5%;
+   right: 15%;
 }
 
 .clearFloats {
-   clear:both;
+   clear: both;
 }
+
 #nav {
    height: 20%;
-   width: 80%;
+   width: 96%;
+   margin-left: 2%;
+   margin-right: 2%;
    display: block;
-   position: relative;
+   overflow: hidden;
+   float: left;
 }
 
 .headerNavigation {
    list-style: none;
    display: inline;
-   border-style: solid;
+/*   border-style: solid;
    border-width: 1px;
-   border-color: red;
+   border-color: red;    */
 }
 
 .firstNavButton {
    float: left;   
-   width: 15%;
-   border-right: 5px groove #4b4b4b;
+   width: 20%;
+   /* border-left: 5px groove #4b4b4b;  */
    padding: 5px;
+   margin-right: 1px;
    text-align: center;
-   color: white;
    text-decoration: none;
-   color: inherit;
-   background-color: #FFCCFF;
-   border-style: solid;
-   border-width: 1px;
-   border-color: red;
+   background-color: #A4CDD2;
+ /*  border-style: solid;
+   border-width: 3px;
+   border-color: red;    */
+   border-radius: 2px;
 }
-.mainNavButton hover{
-   background-color: #FFE6E6;
-}
-.mainNavButton a {
+.firstNavButton a {
    text-decoration: none;
-   background-color: #FFCCFF;
+   color: #002600;
+   background-color: inherit;
 }
+.firstNavButton a:hover {
+   text-decoration: none;
+   background-color: #73E8F6;
+}
+.firstNavButton a:link a:visited a:active {
+   text-decoration: none;
+   background-color: #A4CDD2;
+}
+/* a:link {color:#FF0000;}      *//* unvisited link  */
+/* a:visited {color:#00FF00;}   *//* visited link    */
+/* a:hover {color:#FF00FF;}     *//* mouse over link */
+/* a:active {color:#0000FF;}    *//* selected link   */
 
 .navButton {
    float: left;   
-   width: 15%;
-   border-right: 5px groove #4b4b4b;
+   width: 20%;
+   /* border-right: 5px groove #4b4b4b;  */
    padding: 5px;
+   margin-right: 1px;
    text-align: center;
-   color: white;
-   background-color: #FFCCFF;
-   border-style: solid;
-   border-width: 1px;
-   border-color: red;
+   color:;
+   background-color: #A4CDD2;
+ /*  border-style: solid;
+   border-width: 3px;
+   border-color: red;    */
+   border-radius: 2px;
+   overflow:hidden;
 }
-.navButton hover {
-   background-color: #FFE6E6;
+.navButton a {
+   text-decoration: none;
+   color: #002600;
+   background-color: inherit;
 }
-
+.navButton a:hover {
+   text-decoration: none;
+   background-color: #73E8F6;
+}
+.navButton a:link a:visited a:active {
+   text-decoration: none;
+   background-color: #A4CDD2;
+}
 
 .subMenu {
    display: none;
+   list-style: none;
    padding: 8px 0px 0px 0px;
 }
 
 .subMenuItem {
+   list-style: none;
 }
 
 .boldTxt {
@@ -133,26 +162,46 @@ body {
 }
 
 .buttonLbl {
-   background-color: #FFCCFF;
+   background-color: inherit;
 }
 
 .mainContent {
-   width: 100%;
+   width: 98%;
    position: relative;
    top: 5;
    left: 5;
-   border-style: solid;
+   background-color: #C3B447;
+/*   border-style: solid;
    border-width: 1px;
-   border-color: red;
+   border-color: red;    */
 }
 
 .footer {
+   width: 98%;
    margin-left: auto;
    margin-right: auto;
    position: fixed;
    bottom: 0;
-   text-align: center;
    border-style: solid;
    border-width: 1px;
    border-color: red;
+   border-radius: 2px;
+}
+.copyright {
+   display: inline-block;
+   margin-left: 2%;
+   margin-right: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
+   text-align: center;
+   font-size: .75em;
+}
+.contact {
+   display: inline-block;
+   margin-left: 2%;
+   margin-right: 2%;
+   padding-left: 2%;
+   padding-right: 2%;
+   text-align: center;
+   font-size: .75em;
 }

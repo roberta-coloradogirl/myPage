@@ -46,4 +46,9 @@ rotation = 3;
     $('.logo img').mouseleave(function() {
         clearInterval(interval);
     });
+    
+    $('#smartPhoneNav a').click(function() {
+        var display = $(this).attr('href');
+        $(display).toggle();
+    });
 });
